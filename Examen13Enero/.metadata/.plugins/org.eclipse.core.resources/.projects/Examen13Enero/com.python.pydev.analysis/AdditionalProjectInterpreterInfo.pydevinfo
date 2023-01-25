@@ -1,0 +1,41 @@
+-- VERSION_5
+-- START DISKCACHE_3
+/home/estudiante/1 Trimestre/Programación/Examen13Enero/.metadata/.plugins/org.eclipse.core.resources/.projects/Examen13Enero/com.python.pydev.analysis/v2_indexcache
+Examen13Enero.Ejercicio1|1673601553221751548|/home/estudiante/1 Trimestre/Programación/Examen13Enero/Examen13Enero/Examen13Enero/Ejercicio1.py
+Examen13Enero.__init__|1673593632777719912|/home/estudiante/1 Trimestre/Programación/Examen13Enero/Examen13Enero/Examen13Enero/__init__.py
+Examen13Enero.Ejercicio2_2|1673600012973745396|/home/estudiante/1 Trimestre/Programación/Examen13Enero/Examen13Enero/Examen13Enero/Ejercicio2_2.py
+Examen13Enero.Ejercicio3|1673596273501730460|/home/estudiante/1 Trimestre/Programación/Examen13Enero/Examen13Enero/Examen13Enero/Ejercicio3.py
+Examen13Enero.Ejercicio2|1673599239553742307|/home/estudiante/1 Trimestre/Programación/Examen13Enero/Examen13Enero/Examen13Enero/Ejercicio2.py
+-- END DISKCACHE
+-- START DICTIONARY
+8
+8=Examen13Enero.Ejercicio1
+1=/home/estudiante/1 Trimestre/Programación/Examen13Enero/Examen13Enero/Examen13Enero/Ejercicio2_2.py
+7=/home/estudiante/1 Trimestre/Programación/Examen13Enero/Examen13Enero/Examen13Enero/Ejercicio1.py
+5=/home/estudiante/1 Trimestre/Programación/Examen13Enero/Examen13Enero/Examen13Enero/Ejercicio2.py
+3=/home/estudiante/1 Trimestre/Programación/Examen13Enero/Examen13Enero/Examen13Enero/Ejercicio3.py
+2=Examen13Enero.Ejercicio2_2
+4=Examen13Enero.Ejercicio3
+6=Examen13Enero.Ejercicio2
+-- END DICTIONARY
+-- START TREE 1
+15
+apu|1|apuesta!1^14#5*19@
+ban|2|bancoB!3^17#1*35@banco!3^16#1*35@
+bit|1|bitcoin!3^45#13*35@
+cam|1|cambio!3^21#1*35@
+com|2|comprobar_boleto!5^1#5*50@compra!3^48#21*35@
+con|2|contador!3^20#1*35@contador!1^25#1*19@
+es_|1|es_pass_segura!7^11#5*66@
+gen|3|generar_numero!1^6#5*18@generar_numero!7^7#5*66@generar_pass_segura!7^38#5*66@
+lis|3|listaGanadora!1^21#1*19@listaApuesta!1^12#1*19@lista!3^18#1*35@
+max|1|MAXIMO!3^19#1*35@
+men|1|menu!3^14#1*35@
+opc|1|opcion!3^15#1*35@
+sal|2|saldo!3^24#9*35@saldoB!3^25#9*35@
+val|1|valor!3^35#9*35@
+ven|1|vende!3^57#17*35@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

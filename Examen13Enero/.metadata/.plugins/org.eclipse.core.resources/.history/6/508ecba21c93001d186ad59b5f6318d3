@@ -1,0 +1,20 @@
+def generar_numero():
+    from random import randint
+    return randint(1,49)
+
+combinacion=[]
+while len(combinacion)<=6:
+    combinacion.append(generar_numero())
+print(combinacion)
+
+def comprobar_boleto(combinacion,lista):
+    combinacion=[]
+    contador=0
+    for i in combinacion:
+        for j in combinacion:
+            if i==j:
+                contador+=1
+    return contador
+    
+print(comprobar_boleto([1,4],[1,2,3,4,10,14]))
+    

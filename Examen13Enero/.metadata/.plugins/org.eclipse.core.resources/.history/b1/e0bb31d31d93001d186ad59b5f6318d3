@@ -1,0 +1,9 @@
+'''
+Created on Jan 13, 2023
+
+@author: estudiante
+'''
+
+from random import randint
+return randint(1,49)
+apuesta=int(input("Introduce los numero que deseas"))

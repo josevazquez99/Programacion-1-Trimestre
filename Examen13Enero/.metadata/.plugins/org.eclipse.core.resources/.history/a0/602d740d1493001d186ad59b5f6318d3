@@ -1,0 +1,56 @@
+'''
+Created on Jan 13, 2023
+
+@author: estudiante
+'''
+print("Bienvenido al Jacaixa")
+menu='''
+1.Abrir cuenta
+2.Introducir nuevo valor de cambio
+3.Comprar bitcoins
+4.Vender bitcoins
+5.Mostrar historico
+6.Salir del programa
+'''
+opcion=1
+banco=0
+lista=[]
+MAXIMO=7
+contador=0
+cambio=16295.7
+while opcion!=4:
+    if opcion==1:
+        saldo=float(input("Introduce el saldo de la cuenta corriente"))
+        if saldo<0:
+            print("El saldo debe ser mayor que 0.Vuelva a intentarlo")
+        else:
+            banco+=saldo
+    elif opcion==2:
+        valor=float(input("Introduce un valor a la lista"))
+        if contador<=MAXIMO:
+            lista.append(valor)
+        else:
+            lista[contador%MAXIMO]=valor
+        contador+=1
+    elif opcion==3:
+        bitcoin=float(input("Introduce el bitcoin que deseas"))
+        if len(lista)==0:
+            print("No se ha registrado ningun valor de cambio")
+        if banco<=0:
+            print("No dispone de saldo suficiente")
+        bitcoin*        
+        
+        
+        
+        
+    if opcion==5:
+        print(lista)
+    else:
+        print(banco)
+        
+    print(menu)
+    opcion=int(input("Introduce la opcion que deseas"))
+    
+    while opcion!=1 and opcion!=2 and opcion!=3 and opcion!=4:
+        print("La opcion debe estar entre 1 y 4")
+        

@@ -1,0 +1,24 @@
+def generar_numero():
+    from random import randint
+    return randint(1,49)
+print(generar_numero())
+
+def comprobar_boleto(lista):
+    combinacion=[]
+    aciertos=[]
+    mensaje=""
+    while len(combinacion)<6:
+        combinacion.append(generar_numero())
+    if len(lista)==6:
+        for i in combinacion:
+            for j in lista:
+                if i==j:
+                    aciertos.append(i)
+    else:
+        mensaje="Debes poner 6 numeros"
+            
+    return aciertos
+    
+print(comprobar_boleto([1,2,3,4]))
+
+    

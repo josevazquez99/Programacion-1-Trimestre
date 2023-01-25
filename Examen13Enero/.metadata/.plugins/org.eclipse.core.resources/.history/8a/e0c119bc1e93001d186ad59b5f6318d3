@@ -1,0 +1,23 @@
+'''
+Created on Jan 13, 2023
+
+@author: estudiante
+'''
+def generar_numero():
+    from random import randint
+    return randint(1,49)
+
+listaApuesta=[]
+while len(listaApuesta)<=5:
+    apuesta=int(input("Introduce los numero que deseas"))
+    listaApuesta.append(apuesta)
+print(listaApuesta)
+contador=0
+mensaje=""
+for i in range(len(listaApuesta)):
+    if i==generar_numero():
+        contador+=1
+    else:
+        mensaje="No has acertado ninguno"
+
+    

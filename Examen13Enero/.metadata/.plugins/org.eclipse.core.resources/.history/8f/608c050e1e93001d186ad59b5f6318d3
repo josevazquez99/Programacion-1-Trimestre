@@ -1,0 +1,16 @@
+'''
+Created on Jan 13, 2023
+
+@author: estudiante
+'''
+def generar_numero():
+    from random import randint
+    return randint(1,49)
+
+apuesta=int(input("Introduce los numero que deseas"))
+listaApuesta=[]
+while len(listaApuesta)<=6:
+    apuesta=int(input("Introduce los numero que deseas"))
+print(listaApuesta)
+
+    
